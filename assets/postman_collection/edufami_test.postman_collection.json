@@ -1,0 +1,298 @@
+{
+	"info": {
+		"_postman_id": "761b31e6-3375-4e1d-89c8-b7e14ec214c1",
+		"name": "edufami_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "hotels_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8084/hotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"hotels"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotels_add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "city_id",
+							"value": "MED",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Abel Dos",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Parque",
+							"type": "text"
+						},
+						{
+							"key": "nit",
+							"value": "2018",
+							"type": "text"
+						},
+						{
+							"key": "rooms",
+							"value": "10",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8084/hotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"hotels"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotels_update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "city_id",
+							"value": "MED",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Hotel editado",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Parque",
+							"type": "text"
+						},
+						{
+							"key": "nit",
+							"value": "2018",
+							"type": "text"
+						},
+						{
+							"key": "rooms",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "7",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8084/hotels/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"hotels",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotels_delete",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "6",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8084/hotels/delete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"hotels",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rooms_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rooms_add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "hotel_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "room_type_id",
+							"value": "0003",
+							"type": "text"
+						},
+						{
+							"key": "accommodation_id",
+							"value": "0005",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8084/rooms",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"rooms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rooms_update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "hotel_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "room_type_id",
+							"value": "0003",
+							"type": "text"
+						},
+						{
+							"key": "accommodation_id",
+							"value": "0007",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8084/rooms/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"rooms",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rooms_delete",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8084/rooms/delete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"rooms",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
