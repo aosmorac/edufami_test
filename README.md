@@ -26,6 +26,8 @@ Si necesita permisos de superusuario en linux se debe correr
 
 Estando dentro del contenedor cargamos los datos base en la base de datos corriendo
 
+`composer install`
+
 `php artisan migrate:refresh --seed`
 
 ### Rest Endpoints
