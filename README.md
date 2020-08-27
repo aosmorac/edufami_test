@@ -51,6 +51,20 @@ Route::post('/rooms/update', 'RoomsController@update');
 Route::post('/rooms/delete', 'RoomsController@delete');
 ```
 
+Y los endpoint para acceder desde el cliente quedan:
+
+```
+list   - GET: http://localhost:8084/hotels
+create - POST: http://localhost:8084/hotels
+update - POST: http://localhost:8084/hotels/update
+delete - POST: http://localhost:8084/hotels/delete
+
+list   - GET: http://localhost:8084/rooms/{hotel_id}
+create - POST: http://localhost:8084/rooms
+update - POST: http://localhost:8084/rooms/update
+delete - POST: http://localhost:8084/rooms/delete
+```
+
 ### Front End
 
 El front-end esta construido en vue. Para poder ejecutarlo debera tener instalado vue.
