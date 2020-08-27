@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb8df68-c911-4e87-b240-982f266328df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/src/components/HotelForm.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/Cities.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/Cities.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/Http/Controllers/HotelsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/Http/Controllers/HotelsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/postman_collection/edufami_test.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/postman_collection/edufami_test.postman_collection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="710">
-                <caret line="67" column="167" selection-start-line="67" selection-start-column="167" selection-end-line="67" selection-end-column="167" />
+              <first_editor relative-caret-position="680">
+                <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -275,12 +267,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598485320794</updated>
-      <workItem from="1598485322854" duration="27126000" />
+      <workItem from="1598485322854" duration="27285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27126000" />
+    <option name="totallyTimeSpent" value="27285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -603,8 +595,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="710">
-            <caret line="67" column="167" selection-start-line="67" selection-start-column="167" selection-end-line="67" selection-end-column="167" />
+          <first_editor relative-caret-position="680">
+            <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>

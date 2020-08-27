@@ -59,9 +59,12 @@ El front-end esta construido en vue. Para poder ejecutarlo debera tener instalad
 
 No cree ningun contenedor en docker-compose para vue por lo cual debera tenerlo instalado en el equipo donde esta ejecutando este programa.
 
-Para correr la aplicación debera ir a la carpeta `front/` y alli correr el siguiente comando:
+Para correr la aplicación debera ir a la carpeta `front/` y alli correr los siguientes comandos:
 
-`npm run serve`
+```
+npm install
+npm run serve
+```
 
 Inmediatamente se le mostrara en consola la url que debe utilizar para abrir la aplicación en el explorador, por ejemplo: `http://localhost:8080`
 
