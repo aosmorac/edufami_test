@@ -14,6 +14,8 @@ Si no esta como administrador en linux
 
 `sudo docker-compose up`
 
+Asegurarse que toda la carpeta tenga permisos hasta este punto.
+
 ### Load initial data
 
 Para cargar los datos iniciales, una vez esta corriendo docker debemos entrar al contenedor con la aplicacion. Para esto abrimos otra terminal o linea de comandos y corremos
