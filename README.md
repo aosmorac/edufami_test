@@ -51,6 +51,22 @@ Route::post('/rooms/update', 'RoomsController@update');
 Route::post('/rooms/delete', 'RoomsController@delete');
 ```
 
+### Front End
+
+El front-end esta construido en vue. Para poder ejecutarlo debera tener instalado vue.
+
+`npm install vue`
+
+No cree ningun contenedor en docker-compose para vue por lo cual debera tenerlo instalado en el equipo donde esta ejecutando este programa.
+
+Para correr la aplicación debera ir a la carpeta `front/` y alli correr el siguiente comando:
+
+`npm run serve`
+
+Inmediatamente se le mostrara en consola la url que debe utilizar para abrir la aplicación en el explorador, por ejemplo: `http://localhost:8080`
+
+Tener en cuenta que debe tener los pasos previos completados y los endpoints funcionando correctamente para poder ejecutar la aplicación del cliente sin contratiempos.
+
 ### Docker utilities
 
 Algunos comandos utiles con docker

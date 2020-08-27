@@ -15,7 +15,7 @@ class HotelsController extends Controller
      */
     public function list(Request $request)
     {
-        $hotels = Hotels::orderBy('name')->get();
+        $hotels = Hotels::with('city')->orderBy('name')->get();
         
         return $hotels;
     }
