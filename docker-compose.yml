@@ -1,0 +1,37 @@
+###############################################################################
+#                          Generated on phpdocker.io                          #
+###############################################################################
+version: "3.1"
+services:
+
+    postgres:
+      image: postgres:11.1-alpine
+      container_name: edufami-test-postgres
+      working_dir: /data
+      volumes:
+        - ./data:/data
+      environment:
+        - POSTGRES_USER=edufami
+        - POSTGRES_PASSWORD=test123
+        - POSTGRES_DB=edufami
+      ports:
+        - "8088:5432"
+
+    webserver:
+      image: nginx:alpine
+      container_name: edufami-test-webserver
+      working_dir: /app
+      volumes:
+          - ./app:/app
+          - ./phpdocker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+      ports:
+       - "8084:80"
+
+    php-fpm:
+      build: phpdocker/php-fpm
+      container_name: edufami-test-php-fpm
+      working_dir: /app
+      volumes:
+        - ./app:/app
+        - ./phpdocker/php-fpm/php-ini-overrides.ini:/etc/php/7.4/fpm/conf.d/99-overrides.ini
+
